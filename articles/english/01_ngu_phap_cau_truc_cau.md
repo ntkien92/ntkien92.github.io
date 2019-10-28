@@ -1,6 +1,6 @@
-#### Cấu trúc câu
+## Cấu trúc câu
 
-##### 1. Từ loại
+### 1. Từ loại
 - Danh từ - N - là từ chỉ cái danh
 - Tính từ - Adj - là từ chỉ tính chất của danh từ (đẹp, già, xấu, trẻ)
 - Động từ - V - từ nêu lên hành động
