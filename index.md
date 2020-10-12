@@ -22,4 +22,4 @@ Sau đây là những bài viết của mình về những kiến thức lượm
 
 
 ### 5. Các ghi chú về Blockchains
-[001_PSBT](/blockchains/001_psbt.md)
+[001_PSBT](/articles/blockchains/001_psbt.md)
