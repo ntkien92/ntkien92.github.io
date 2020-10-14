@@ -1,4 +1,5 @@
 == Blockchain ==
+```
 getbestblockhash
 getblock "blockhash" ( verbosity )
 getblockchaininfo
@@ -24,28 +25,37 @@ savemempool
 scantxoutset "action" ( [scanobjects,...] )
 verifychain ( checklevel nblocks )
 verifytxoutproof "proof"
+```
 
 == Control ==
+```
 getmemoryinfo ( "mode" )
 getrpcinfo
 help ( "command" )
 logging ( ["include_category",...] ["exclude_category",...] )
 stop
 uptime
+```
 
 == Generating ==
+```
 generatetoaddress nblocks "address" ( maxtries )
 generatetodescriptor num_blocks "descriptor" ( maxtries )
+```
 
 == Mining ==
+```
 getblocktemplate ( "template_request" )
 getmininginfo
 getnetworkhashps ( nblocks height )
 prioritisetransaction "txid" ( dummy ) fee_delta
 submitblock "hexdata" ( "dummy" )
 submitheader "hexdata"
+```
 
 == Network ==
+
+```
 addnode "node" "command"
 clearbanned
 disconnectnode ( "address" nodeid )
@@ -59,8 +69,11 @@ listbanned
 ping
 setban "subnet" "command" ( bantime absolute )
 setnetworkactive state
+```
 
 == Rawtransactions ==
+
+```
 analyzepsbt "psbt"
 combinepsbt ["psbt",...]
 combinerawtransaction ["hexstring",...]
@@ -78,8 +91,11 @@ sendrawtransaction "hexstring" ( maxfeerate )
 signrawtransactionwithkey "hexstring" ["privatekey",...] ( [{"txid":"hex","vout":n,"scriptPubKey":"hex","redeemScript":"hex","witnessScript":"hex","amount":amount},...] "sighashtype" )
 testmempoolaccept ["rawtx",...] ( maxfeerate )
 utxoupdatepsbt "psbt" ( ["",{"desc":"str","range":n or [n,n]},...] )
+```
 
 == Util ==
+
+```
 createmultisig nrequired ["key",...] ( "address_type" )
 deriveaddresses "descriptor" ( range )
 estimatesmartfee conf_target ( "estimate_mode" )
@@ -87,8 +103,10 @@ getdescriptorinfo "descriptor"
 signmessagewithprivkey "privkey" "message"
 validateaddress "address"
 verifymessage "address" "signature" "message"
+```
 
 == Wallet ==
+```
 abandontransaction "txid"
 abortrescan
 addmultisigaddress nrequired ["key",...] ( "label" "address_type" )
@@ -144,6 +162,9 @@ walletlock
 walletpassphrase "passphrase" timeout
 walletpassphrasechange "oldpassphrase" "newpassphrase"
 walletprocesspsbt "psbt" ( sign "sighashtype" bip32derivs )
+```
 
 == Zmq ==
+```
 getzmqnotifications
+```

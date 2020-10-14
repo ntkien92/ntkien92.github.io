@@ -23,5 +23,7 @@ Sau đây là những bài viết của mình về những kiến thức lượm
 
 ### 5. Các ghi chú về Blockchains
 [000_BitcoinCli_Help](/articles/blockchains/000_bitcoin_cli_help.md)
+
 [001_PSBT](/articles/blockchains/001_psbt.md)
+
 [002_MemPool](/articles/blockchains/002_mempool.md)
