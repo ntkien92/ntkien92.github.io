@@ -27,3 +27,7 @@ Sau đây là những bài viết của mình về những kiến thức lượm
 [001_PSBT](/articles/blockchains/001_psbt.md)
 
 [002_MemPool](/articles/blockchains/002_mempool.md)
+
+[003_Key Words](/articles/blockchains/003_keyword.md)
+
+[004_question](/articles/blockchains/004_question.md)
